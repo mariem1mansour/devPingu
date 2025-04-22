@@ -1,7 +1,8 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 const App = () => {
-  return <h1 class="text-3xl font-bold text-red-400 underline">Hello world!</h1>;
+  return <NavBar />;
 };
 
 export default App;
